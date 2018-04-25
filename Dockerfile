@@ -4,4 +4,4 @@ LABEL MAINTAINER = "T Kwenene"
 
 CMD ["echo", "Hellow World"]
 
-ENTRYPOINT ["python", "app.py"]
+ENTRYPOINT ["python", "/script/hello_script.sh"]
