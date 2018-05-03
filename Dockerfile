@@ -16,5 +16,5 @@ COPY . /app
 
 ENTRYPOINT [ "python" ]
 #CMD [ "echo", "All of them" ]
-EXPOSE 8080
+EXPOSE 5000
 CMD [ "hello/app.py" ]
